@@ -4,226 +4,27 @@
 <head>
     <meta charset="utf-8">
     <title>Prova Gx2</title>
+    <link rel="stylesheet" href="Css/style.css">  
 
     <script src="https://kit.fontawesome.com/100226094c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <style>
-        .tteste {
-            text-align: left;
-            font: normal normal normal 15px/22px Segoe UI;
-            letter-spacing: 0px;
-            color: #FFFFFF;
-            opacity: 1;
-        }
-
-        .footer {
-            background: #C4170C 0% 0% no-repeat padding-box;
-            border: 1px solid #707070;
-            opacity: 1;
-            height: 130px;
-        }
-
-        .titleEco {
-            font: normal normal 600 22px/30px Segoe UI;
-            letter-spacing: 0px;
-            color: #000000;
-            opacity: 1;
-        }
-
-        .titleNota {
-            font: normal normal 600 25px/37px Segoe UI;
-            letter-spacing: 0px;
-            color: #C4170C;
-            opacity: 1;
-        }
-
-        .descNot {
-            font: normal normal normal 17px/26px Segoe UI;
-            letter-spacing: 0px;
-            color: #000000;
-            opacity: 1;
-        }
-
-        .tempAuta {
-            font: normal normal normal 17px/26px Segoe UI;
-            letter-spacing: 0px;
-            color: #746565;
-            opacity: 1;
-        }
-
-        .imgAut {
-            height: 200px;
-        }
-
-        .conteudo {
-            display: flex;
-        }
-
-        .noticiaDireita {
-            padding-left: 50px;
-        }
-
-        .separadorNoticia {
-            border: 0.5px solid darkgray;
-            opacity: 1;
-            margin-top: 5%;
-            margin-bottom: 5%;
-        }
-
-        .clear {
-            padding: 20px;
-        }
-
-        .centralizaBotao {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .botao {
-            background: #C4170C 0% 0% no-repeat padding-box;
-            border: 1px solid #707070;
-            border-radius: 4px;
-            opacity: 1;
-            width: 250px;
-        }
-
-        .textoBotao {
-            text-align: center;
-            font: normal normal 600 15px/20px Segoe UI;
-            color: #FFFFFF;
-            opacity: 1;
-            padding: 20px;
-        }
-
-        .titleBestNotices {
-            text-align: center;
-            font: normal normal 600 28px/40px Segoe UI;
-            font-weight: 700;
-        }
-
-        .imageNoticias {
-            height: 200px;
-        }
-
-        .noticiasPrincipais {
-            font: normal normal 600 17px/25px Segoe UI;
-            letter-spacing: 0px;
-            color: #000000;
-            opacity: 1;
-            font-weight: 700;
-        }
-
-        .imagensCantoDireito {
-            padding-left: 80px;
-        }
-
-        .descNoticiaEsquerda {
-            font: normal normal normal 20px/28px Segoe UI;
-            letter-spacing: 0px;
-            color: #8B0000;
-        }
-
-        .tituloNoticiaEsquerda {
-            font: normal normal 600 35px/28px Segoe UI;
-            letter-spacing: 0px;
-            color: #8B0000;
-        }
-
-        .estiloDiv {
-            background: #FFFFFF 0% 0% no-repeat padding-box;
-            border: 1px solid #707070;
-            border-radius: 4px;
-            opacity: 1;
-        }
-
-        .header {
-            background: #C4170C 0% 0% no-repeat padding-box;
-            border: 1px solid #707070;
-            opacity: 1;
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-        }
-
-        .imgG1Header {
-            height: 70px;
-            padding-right: 30%;
-        }
-
-        .teste {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .oi {
-            display: flex;
-        }
-
-        a:hover,
-        .active {
-            color: red;
-        }
-
-        input {
-            color: white !important;
-        }
-
-        ::placeholder {
-            color: white !important;
-        }
-
-        .submit-lente {
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: 10;
-            border: none;
-            background: transparent;
-            outline: none;
-            color: white;
-        }
-
-        .submit-line {
-            position: relative;
-            width: 200px;
-        }
-
-        .submit-line input {
-            width: 100%;
-            
-            background: #8B0000 0% 0% no-repeat padding-box;
-            border: 1px solid #707070;
-            border-radius: 8px;
-            opacity: 1;
-        }
-
-        .g1Footer{
-            
-        }
-    </style>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 </head>
 
 <body>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-
-
-    <div class="oi">
+    <div class="alignDivs">
         <nav class="navbar navbar-expand-lg header">
-
             <div class="container">
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -234,10 +35,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                            <a class="nav-link dropdown menuColor" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fa fa-list"></i>
-                                <strong style="font-size: 17px;">MENU</strong>
+                                <strong class="fontSizeMenu">MENU</strong>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="#">Pagina Inicial</a>
@@ -245,75 +46,60 @@
                         </li>
                     </ul>
 
-                    <img src="G1imagem.jpg" class="imgG1Header">
+                    <img src="Images/G1imagem.jpg" class="imgG1Header">
 
                     <div class="submit-line">
-                        <input type="text" style="padding-left: 30px;" placeholder="Buscar"/>
-                        <button class="submit-lente" >
+                        <input type="text" placeholder="Buscar" />
+                        <button class="submit-lente">
                             <i class="fa fa-search"></i>
                         </button>
                     </div>
-
-
                 </div>
-
             </div>
         </nav>
     </div>
 
-
-
-
-
-    <div class="clear"></div>
-    <div class="clear"></div>
     <div class="clear"></div>
 
     <div class="container">
-
 
         <div class="titleBestNotices">AS MELHORES NOTÍCIAS DE HOJE</div>
 
         <div class="clear"></div>
 
+        <div class="alignDivs">
 
-
-        <div class="conteudo">
-
-            <div class="estiloDiv" style="position: relative; width: 100%;">
-                <div style="top:35%; left: 2%; position: absolute;">
-                    <p class="tituloNoticiaEsquerda">Lucro do FGTS será depositado nas constas hoje;
+            <div class="DivStyle">
+                <div class="inDivStyle">
+                    <p class="titleNewsLeft">Lucro do FGTS será depositado nas constas hoje;
                         veja como fica o rendimento</p>
-                    <p class="descNoticiaEsquerda">- caixa libera novos saques emergenciais do FGTS;
+                    <p class="descNewsLeft">- caixa libera novos saques emergenciais do FGTS;
                         veja calendário</p>
                 </div>
             </div>
 
-            <div class="imagensCantoDireito">
-                <img src="homem-janela-caminhao.png" class="imageNoticias">
-                <p class="noticiasPrincipais">VÍDEO: ladrão invade caminhão pela janela para roubar carga BR-040</p>
+            <div class="rightCornerImage">
+                <img src="Images/homem-janela-caminhao.png" class="imageNoticias">
+                <p class="mainNews">VÍDEO: ladrão invade caminhão pela janela para roubar carga BR-040</p>
 
                 <div class="clear"></div>
 
-                <img src="Lady.png" class="imageNoticias">
-                <p class="noticiasPrincipais">FOTOS: 'festival' de máscaras de Lady Gaga rouba a cena no VMA</p>
+                <img src="Images/Lady.png" class="imageNoticias">
+                <p class="mainNews">FOTOS: 'festival' de máscaras de Lady Gaga rouba a cena no VMA</p>
             </div>
-
-
-
         </div>
 
         <div class="clear"></div>
         <div class="clear"></div>
         <div class="clear"></div>
 
-        <div class="conteudo">
+        <div class="alignDivs">
 
             <div>
-                <img class="imgAut" src="notas@2x.png">
+                <img class="imgAut" src="Images/notas.png">
             </div>
 
-            <div class="noticiaDireita">
+            <div class="newsRight">
 
                 <div class="titleEco">Economia</div>
 
@@ -340,15 +126,15 @@
 
         </div>
 
-        <hr class="separadorNoticia">
+        <hr class="separatorNews">
 
-        <div class="conteudo">
+        <div class="alignDivs">
 
             <div>
-                <img class="imgAut" src="notas@2x.png">
+                <img class="imgAut" src="Images/notas.png">
             </div>
 
-            <div class="noticiaDireita">
+            <div class="newsRight">
 
                 <div class="titleEco">Economia</div>
 
@@ -373,15 +159,15 @@
 
         </div>
 
-        <hr class="separadorNoticia">
+        <hr class="separatorNews">
 
-        <div class="conteudo">
+        <div class="alignDivs">
 
             <div>
-                <img class="imgAut" src="notas@2x.png">
+                <img class="imgAut" src="Images/notas.png">
             </div>
 
-            <div class="noticiaDireita">
+            <div class="newsRight">
 
                 <div class="titleEco">Economia</div>
 
@@ -406,24 +192,19 @@
 
         </div>
 
-
-        <hr class="separadorNoticia">
+        <hr class="separatorNews">
 
         <div class="clear"></div>
 
+        <div class="buttonCentralize">
 
-
-
-        <div class="centralizaBotao">
-
-            <button class="botao">
-                <label class="textoBotao">VEJA MAIS</label>
+            <button class="button">
+                <label class="buttonText">VEJA MAIS</label>
             </button>
 
         </div>
 
 
-        <div class="clear"></div>
         <div class="clear"></div>
         <div class="clear"></div>
         <div class="clear"></div>
@@ -434,25 +215,22 @@
 
         <div class="container">
 
-            <div style="display: flex;">
-                <img src="G1imagem.jpg" style="height: 100px;">
-                <div class="tteste" style="align-self: center;"><strong>últimas notícias</strong></div>
+            <div class="alignDivs">
+                <img src="Images/G1imagem.jpg" style="height: 100px;">
+                <div class="footerTextNews"><strong>últimas notícias</strong></div>
             </div>
 
-            <div style="display: flex;">
-                <div class="tteste">
+            <div class="alignDivs">
+                <div class="footerText">
                     © Copyright 2000-2020 Globo Comunicação e Participações S.A.
                 </div>
 
-                <div class="tteste" style="padding-left: 20%;">
+                <div class="footerTextDvst">
                     princípios editoriais | política de privacidade | minha conta | anuncie
                 </div>
             </div>
         </div>
-
-
     </div>
 
 </body>
-
 </html>
