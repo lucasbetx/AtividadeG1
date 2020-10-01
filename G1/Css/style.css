@@ -164,6 +164,7 @@
     position: relative;
     width: 100%;
     cursor: pointer;
+    min-width: 328px;
 }
 
 .inDivStyle {
