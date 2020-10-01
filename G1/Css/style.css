@@ -6,7 +6,7 @@
     opacity: 1;
 }
 
-.footerTextNews{
+.footerTextNews {
     text-align: left;
     font: normal normal normal 15px/22px Segoe UI;
     letter-spacing: 0px;
@@ -15,13 +15,19 @@
     align-self: center;
 }
 
-.footerTextDvst{
+.colorText {
+    color: #C4170C
+}
+
+
+.footerTextDvst {
     text-align: left;
     font: normal normal normal 15px/22px Segoe UI;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
     padding-left: 20%;
+    cursor: pointer;
 }
 
 .footer {
@@ -61,6 +67,7 @@
 
 .imgAut {
     height: 200px;
+    cursor: pointer;
 }
 
 .newsRight {
@@ -74,8 +81,19 @@
     margin-bottom: 5%;
 }
 
+.separatorComent {
+    border: 0.5px solid darkgray;
+    opacity: 1;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
 .clear {
     padding: 20px;
+}
+
+.clearComent {
+    padding: 10px;
 }
 
 .buttonCentralize {
@@ -90,6 +108,7 @@
     border-radius: 4px;
     opacity: 1;
     width: 250px;
+    cursor: pointer;
 }
 
 .buttonText {
@@ -98,6 +117,7 @@
     color: #FFFFFF;
     opacity: 1;
     padding: 20px;
+    cursor: pointer;
 }
 
 .titleBestNotices {
@@ -108,6 +128,7 @@
 
 .imageNoticias {
     height: 200px;
+    cursor: pointer;
 }
 
 .mainNews {
@@ -116,6 +137,7 @@
     color: #000000;
     opacity: 1;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .rightCornerImage {
@@ -141,6 +163,7 @@
     opacity: 1;
     position: relative;
     width: 100%;
+    cursor: pointer;
 }
 
 .inDivStyle {
@@ -160,12 +183,22 @@
 }
 
 .imgG1Header {
-    height: 70px;
+    height: 69px;
+    padding-right: 30%;
+}
+
+.imgG1HeaderNoticia {
+    height: 77px;
     padding-right: 30%;
 }
 
 .alignDivs {
     display: flex;
+}
+
+.alignDivsFooter {
+    display: flex;
+    padding-top: 20px;
 }
 
 a:hover,
@@ -206,4 +239,60 @@ input,
 
 .fontSizeMenu {
     font-size: 17px;
+}
+
+.TitleNews {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.dateHourNew {
+    color: #746565;
+    font-size: 15px;
+}
+
+.imgNews {
+    width: 75%;
+}
+
+.descNew {
+    font-size: 23px;
+}
+
+.g1Footer {
+    height: 55px;
+    padding-right: 15px;
+}
+
+.centerImg {
+    text-align: center;
+}
+
+.colorTxt {
+    color: #555555;
+}
+
+.coments {
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.buttonComent {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    color: gray;
+    border-color: gray;
+}
+
+.descComent {
+    color: gray;
+}
+
+.accessAccount {
+    text-align: center;
+    border: solid;
+    padding: 30px;
+    border-color: darkgray;
+    color: gray;
 }
